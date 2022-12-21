@@ -29,7 +29,7 @@
 # Users can override these values by setting the JAVA_OPTS environment variable. For example:
 # -e JAVA_OPTS="-Xmx2048m"
 
-XMX="-Xmx1024m"
+XMX="-Xmx4096m"
 ALLOW_ENCODED_SLASH="-Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true"
 ALLOW_BACKSLASH="-Dorg.apache.catalina.connector.CoyoteAdapter.ALLOW_BACKSLASH=true"
 SECURERANDOM="-Djava.security.egd=file:/dev/./urandom"
